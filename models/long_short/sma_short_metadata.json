@@ -1,0 +1,26 @@
+{
+  "upper_threshold": 0.6000000000000001,
+  "lower_threshold": 0.41999999999999993,
+  "best_params": {
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "n_estimators": 200,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "validation_auc": 0.5407071019865533,
+  "feature_cols": [
+    "SMA_10",
+    "SMA_20",
+    "SMA_50",
+    "price_to_SMA_10",
+    "price_to_SMA_20",
+    "price_to_SMA_50",
+    "SMA_10_over_20",
+    "SMA_20_over_50",
+    "SMA_10_slope_3",
+    "SMA_20_slope_3",
+    "SMA_50_slope_3",
+    "zscore_price_to_SMA_20"
+  ]
+}
