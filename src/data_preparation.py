@@ -6,6 +6,7 @@ import numpy as np
 import requests
 import time
 import os
+from datetime import datetime   # <-- FIX: import the datetime class
 
 # -------------------------------
 # 1. Fetch or load data
