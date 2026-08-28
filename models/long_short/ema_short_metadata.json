@@ -1,0 +1,22 @@
+{
+  "upper_threshold": 0.6200000000000001,
+  "lower_threshold": 0.3799999999999999,
+  "best_params": {
+    "max_depth": 3,
+    "learning_rate": 0.1,
+    "n_estimators": 200,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "validation_auc": 0.5434304135333943,
+  "feature_cols": [
+    "EMA_12",
+    "EMA_26",
+    "price_to_EMA_12",
+    "price_to_EMA_26",
+    "EMA_12_over_26",
+    "EMA_12_slope_3",
+    "EMA_26_slope_3",
+    "zscore_price_to_EMA_12"
+  ]
+}
