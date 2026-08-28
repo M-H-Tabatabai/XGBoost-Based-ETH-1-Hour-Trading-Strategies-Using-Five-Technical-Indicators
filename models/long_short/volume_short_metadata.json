@@ -1,0 +1,23 @@
+{
+  "upper_threshold": 0.6000000000000001,
+  "lower_threshold": 0.4399999999999999,
+  "best_params": {
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "n_estimators": 200,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "validation_auc": 0.5331039225726133,
+  "feature_cols": [
+    "volume",
+    "volume_SMA_10",
+    "volume_SMA_20",
+    "volume_SMA_50",
+    "volume_ratio_20",
+    "volume_ratio_50",
+    "volume_zscore_50",
+    "volume_slope_3",
+    "OBV_slope_3"
+  ]
+}
