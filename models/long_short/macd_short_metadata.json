@@ -1,0 +1,29 @@
+{
+  "upper_threshold": 0.6000000000000001,
+  "lower_threshold": 0.41999999999999993,
+  "best_params": {
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "n_estimators": 200,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "validation_auc": 0.5291685595982718,
+  "feature_cols": [
+    "MACD_line",
+    "MACD_signal",
+    "MACD_hist",
+    "MACD_line_lag_1",
+    "MACD_signal_lag_1",
+    "MACD_hist_lag_1",
+    "MACD_line_lag_2",
+    "MACD_signal_lag_2",
+    "MACD_hist_lag_2",
+    "MACD_line_lag_3",
+    "MACD_signal_lag_3",
+    "MACD_hist_lag_3",
+    "MACD_line_slope_3",
+    "MACD_hist_slope_3",
+    "MACD_hist_zscore_20"
+  ]
+}
