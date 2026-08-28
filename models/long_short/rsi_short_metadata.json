@@ -1,0 +1,25 @@
+{
+  "upper_threshold": 0.6200000000000001,
+  "lower_threshold": 0.3999999999999999,
+  "best_params": {
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "n_estimators": 300,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "validation_auc": 0.5273682352271852,
+  "feature_cols": [
+    "RSI_14",
+    "RSI_14_lag_1",
+    "RSI_14_lag_2",
+    "RSI_14_lag_3",
+    "RSI_14_momentum_3",
+    "RSI_14_rolling_mean_10",
+    "RSI_14_rolling_std_10",
+    "RSI_14_rolling_mean_50",
+    "RSI_14_dist_30",
+    "RSI_14_dist_50",
+    "RSI_14_dist_70"
+  ]
+}
